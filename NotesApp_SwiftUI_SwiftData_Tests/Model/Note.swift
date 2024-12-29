@@ -17,6 +17,7 @@ struct Note: Identifiable,Hashable {
         text ?? ""
     }
     
+
     init(id: UUID = UUID(), title: String, text: String?, createdAt: Date) {
         self.id = id
         self.title = title
